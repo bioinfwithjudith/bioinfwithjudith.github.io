@@ -1940,6 +1940,11 @@ input, select, textarea {
 /* about-me */
 
 	#about-me {
+		position: relative;
+		overflow: hidden;
+		background: #fff;
+		text-align: center;
+		padding: 6em 0;
 		margin: 0 auto; /* styles for the about me section */
 	}
 	
@@ -1963,6 +1968,14 @@ input, select, textarea {
 		  /* styles for the text content */
 		  padding: 10px; /* add padding for readability */
 	}
+	
+	#about-me ul.actions {
+			margin-top: 1.25em;
+		}
+
+	#about-me p {
+			text-align: center;
+			}
 
 /* Nav */
 
