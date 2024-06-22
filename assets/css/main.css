@@ -1940,7 +1940,7 @@ input, select, textarea {
 /* about-me */
 
 	#about-me {
-		  /* styles for the about me section */
+		margin: 0 auto; /* styles for the about me section */
 	}
 	
 	.about-me-content {
