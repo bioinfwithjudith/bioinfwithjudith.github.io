@@ -1937,6 +1937,27 @@ input, select, textarea {
 			text-align: center;
 		}
 
+/* about-me */
+
+	#about-me {
+		  /* styles for the about me section */
+	}
+	
+	.about-me-content {
+	  	display: flex;
+	  	justify-content: flex-start;  /* Align items to the start */
+	}
+
+	.profile-picture {
+		  /* styles for the profile picture */
+		  margin: 10px; /* add margin for spacing */
+	}
+	
+	.about-me-text {
+	  /* styles for the text content */
+	  padding: 10px; /* add padding for readability */
+	}
+
 /* Nav */
 
 	#nav {
