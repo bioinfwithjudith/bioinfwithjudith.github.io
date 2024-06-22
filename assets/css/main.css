@@ -1952,10 +1952,15 @@ input, select, textarea {
 		  /* styles for the profile picture */
 		  margin: 10px; /* add margin for spacing */
 	}
-	
+
+	.profile-picture img {
+		    width: 200px;
+		    height: 200px;
+	}
+
 	.about-me-text {
-	  /* styles for the text content */
-	  padding: 10px; /* add padding for readability */
+		  /* styles for the text content */
+		  padding: 10px; /* add padding for readability */
 	}
 
 /* Nav */
