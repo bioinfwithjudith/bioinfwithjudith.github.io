@@ -1949,14 +1949,15 @@ input, select, textarea {
 	}
 
 	.profile-picture {
-		  /* styles for the profile picture */
-		  margin: 10px; /* add margin for spacing */
+		/* styles for the profile picture */
+		margin: 10px; /* add margin for spacing */
 	}
 
-	<!-- .profile-picture img {
-		    width: 472px;
-		    height: 863px;
-	}-->
+	.profile-picture img {
+		object-fit: scale-down;
+		    <!-- width: 472px;
+		    height: 863px; -->
+	}
 
 	.about-me-text {
 		  /* styles for the text content */
