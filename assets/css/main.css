@@ -1954,7 +1954,7 @@ input, select, textarea {
 	}
 
 	.profile-picture img {
-		object-fit: scale-down;
+		object-fit: cover;
 		    <!-- width: 472px;
 		    height: 863px; -->
 	}
