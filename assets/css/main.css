@@ -2772,7 +2772,7 @@ body {
 			
 			.hero-img {
 			    width: 100%;
-			    height: 400px;        /* adjust height as needed */
+			    height: auto;        /* adjust height as needed */
 			    object-fit: cover;    /* crops nicely instead of stretching */
 			    display: block;
 			}
