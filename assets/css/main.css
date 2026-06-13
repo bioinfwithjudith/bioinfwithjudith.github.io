@@ -2771,7 +2771,7 @@ body {
 			}
 			
 			.hero-img {
-			    width: 100%;
+			    width: 100vw;
 			    height: auto;        /* adjust height as needed */
 			    object-fit: cover;    /* crops nicely instead of stretching */
 			    display: block;
