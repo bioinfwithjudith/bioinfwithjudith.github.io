@@ -2776,11 +2776,14 @@ html, body {
     margin: 0 auto;
 }
 
-/* true full width image without viewport bugs */
+.hero {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding: 0;
+}
+
 .hero-img {
     width: 100%;
-    max-width: 100%;
-    height: auto;
     display: block;
 }
 		#page-wrapper {
