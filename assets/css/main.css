@@ -2753,31 +2753,19 @@ input, select, textarea {
 body {
 	margin: 0;
 }
-			.container {
-			    display: flex;
-			    justify-content: center;
-			}
-			
-			.header-banner {
-			    width: 100%;
-			    max-width: 1400px;
-			    height: auto;
-			}
-
-
-			.hero {
-			    width: 100%;
-			    overflow: hidden;
+		/* ===== HERO BANNER FIX ===== */
+		
+			#header {
+			    padding: 0;
 			}
 			
 			.hero-img {
-			    width: 100vw;
-			    height: auto;        /* adjust height as needed */
-			    object-fit: cover;    /* crops nicely instead of stretching */
+			    width: 100%;
+			    height: auto;
 			    display: block;
+			    margin: 0;
 			}
+
+
 }
-
-
-	}
 
