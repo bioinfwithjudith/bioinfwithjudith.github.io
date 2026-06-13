@@ -52,7 +52,7 @@ table {
 }
 
 body {
-	-webkit-text-size-adjust: none; margin: 0;
+	-webkit-text-size-adjust: none;
 }
 
 mark {
@@ -2748,6 +2748,11 @@ input, select, textarea {
 
 
 		/* ===== Judith Banner ===== */
+
+		
+body {
+	margin: 0;
+}
 			.container {
 			    display: flex;
 			    justify-content: center;
