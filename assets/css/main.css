@@ -2754,18 +2754,32 @@ body {
 	margin: 0;
 }
 		/* ===== HERO BANNER FIX ===== */
-		
-			#header {
-			    padding: 0;
-			}
-			
-			.hero-img {
-			    width: 100%;
-			    height: auto;
-			    display: block;
-			    margin: 0;
-			}
+/* ===== HERO BANNER FIX (FULL CONTROL) ===== */
 
+#header {
+    padding: 0 !important;
+    margin: 0;
+}
+
+/* remove theme spacing inside header */
+#header .container {
+    margin: 0;
+    padding: 0;
+}
+
+/* make image truly edge-to-edge */
+.hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/* remove any weird spacing from section */
+section#header {
+    line-height: 0;
+}
 
 }
 
