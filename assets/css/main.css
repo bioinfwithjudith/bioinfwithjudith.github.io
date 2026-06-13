@@ -2790,5 +2790,9 @@ html, body {
 		#page-wrapper {
     padding: 0 !important;
 }
+
+		body {
+    color: #fff !important;
+}
 }
 
