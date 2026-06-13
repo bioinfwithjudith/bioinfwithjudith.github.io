@@ -2744,5 +2744,17 @@ input, select, textarea {
 					margin-left: 0;
 					border-left: 0;
 				}
+		/* Existing CSS above ... */
+
+
+		/* ===== Judith Banner ===== */
+		.header-banner {
+		    width: 100%;
+		    max-width: 1400px;
+		    display: block;
+		    margin: 0 auto;
+}
+
 
 	}
+
