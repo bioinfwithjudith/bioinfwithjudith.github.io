@@ -2756,30 +2756,32 @@ body {
 		/* ===== HERO BANNER FIX ===== */
 /* ===== HERO BANNER FIX (FULL CONTROL) ===== */
 
-#header {
-    padding: 0 !important;
-    margin: 0;
-}
+/* ===== FULL BLEED HERO FIX ===== */
 
-/* remove theme spacing inside header */
-#header .container {
+html, body {
     margin: 0;
     padding: 0;
 }
 
-/* make image truly edge-to-edge */
+/* kill theme spacing */
+#header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* IMPORTANT: remove container influence on layout above image */
+#header .container {
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* true full width image without viewport bugs */
 .hero-img {
-    width: auto;
+    width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
-    margin: 0;
-    padding: 0;
 }
-
-/* remove any weird spacing from section */
-section#header {
-    line-height: 0;
-}
-
 }
 
