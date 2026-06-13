@@ -2769,7 +2769,7 @@ body {
 
 /* make image truly edge-to-edge */
 .hero-img {
-    width: 100vw;
+    width: auto;
     height: auto;
     display: block;
     margin: 0;
