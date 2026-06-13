@@ -2767,17 +2767,18 @@ html, body {
 #header {
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
 /* IMPORTANT: remove container influence on layout above image */
 #header .container {
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
+	width: 100%;
+	max-width: none;
 }
 
 .hero {
-    width: 100vw;
+    width: 100%;
     margin-left: calc(-50vw + 50%);
     padding: 0;
 }
