@@ -2783,5 +2783,8 @@ html, body {
     height: auto;
     display: block;
 }
+		#page-wrapper {
+    padding: 0 !important;
+}
 }
 
