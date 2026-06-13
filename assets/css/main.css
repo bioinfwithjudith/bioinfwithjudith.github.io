@@ -1931,7 +1931,7 @@ input, select, textarea {
 		#header p {
 			text-transform: uppercase;
 			font-weight: 400;
-			color: #888;
+			color: #fff;
 			margin: 2.5em 0 0 0;
 			font-size: 0.85em;
 			letter-spacing: 3px;
@@ -2503,7 +2503,7 @@ input, select, textarea {
 				border-right: solid 2px #3c3c3c;
 				font-weight: 400;
 				text-transform: uppercase;
-				color: #888;
+				color: #fff;
 				letter-spacing: 2px;
 				font-size: 0.85em;
 			}
