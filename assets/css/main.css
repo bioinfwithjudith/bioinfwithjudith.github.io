@@ -2748,11 +2748,13 @@ input, select, textarea {
 
 
 		/* ===== Judith Banner ===== */
-		.header-banner {
-		    width: 100%;
-		    max-width: 1400px;
-		    display: block;
-		    margin: 0 auto;
+			.header-banner {
+			    display: block;
+			    margin: 0 auto;
+			    width: 100%;
+			    max-width: 1400px;  /* or whatever your design limit is */
+			    height: auto;
+			}
 }
 
 
