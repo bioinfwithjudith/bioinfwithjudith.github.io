@@ -52,7 +52,7 @@ table {
 }
 
 body {
-	-webkit-text-size-adjust: none;
+	-webkit-text-size-adjust: none; margin: 0;
 }
 
 mark {
@@ -2757,6 +2757,19 @@ input, select, textarea {
 			    width: 100%;
 			    max-width: 1400px;
 			    height: auto;
+			}
+
+
+			.hero {
+			    width: 100%;
+			    overflow: hidden;
+			}
+			
+			.hero-img {
+			    width: 100%;
+			    height: 400px;        /* adjust height as needed */
+			    object-fit: cover;    /* crops nicely instead of stretching */
+			    display: block;
 			}
 }
 
