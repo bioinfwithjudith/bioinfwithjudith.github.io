@@ -1,6 +1,13 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
 
+/* let's add variables to make color testing easier */
+:root {
+    --primary-bg: #000080;
+    --primary-text: #ffffff;
+    --accent: #DCADA7;
+}
+
 /*
 	Strongly Typed by HTML5 UP
 	html5up.net | @ajlkn
@@ -1915,7 +1922,7 @@ input, select, textarea {
 			width: 100% !important;
 			max-width: none !important;
 			border-bottom: solid 2px #e5e5e5;
-			box-shadow: inset 0px -8px 0px 0px #00008B, inset 0px -10px 0px 0px #e5e5e5;
+			box-shadow: inset 0px -8px 0px 0px var(--primary-bg), inset 0px -10px 0px 0px #e5e5e5;
 		}
 
 		#header h1 {
@@ -2151,7 +2158,7 @@ input, select, textarea {
 		text-align: center;
 		border-top: solid 2px #e5e5e5;
 		border-bottom: solid 2px #e5e5e5;
-		box-shadow: inset 0px -8px 0px 0px #00008B, inset 0px 8px 0px 0px #00008B;
+		box-shadow: inset 0px -8px 0px 0px var(--primary-bg), inset 0px 8px 0px 0px #00008B;
 		position: relative;
 		text-transform: uppercase;
 		background: url("../../images/banner.jpg");
@@ -2214,7 +2221,7 @@ input, select, textarea {
 	#content > section,
 	#content > article {
 		border-top: solid 2px #e5e5e5;
-		box-shadow: inset 0px 8px 0px 0px #00008B, inset 0px 10px 0px 0px #e5e5e5;
+		box-shadow: inset 0px 8px 0px 0px var(--primary-bg), inset 0px 10px 0px 0px #e5e5e5;
 		margin: 5em 0 0 0;
 		padding: 5em 0 0 0;
 	}
@@ -2232,7 +2239,7 @@ input, select, textarea {
 	#sidebar > section,
 	#sidebar > article {
 		border-top: solid 2px #e5e5e5;
-		box-shadow: inset 0px 8px 0px 0px #00008B, inset 0px 10px 0px 0px #e5e5e5;
+		box-shadow: inset 0px 8px 0px 0px var(--primary-bg), inset 0px 10px 0px 0px #e5e5e5;
 		margin: 5em 0 0 0;
 		padding: 5em 0 0 0;
 	}
