@@ -1742,7 +1742,7 @@ input, select, textarea {
 
 		table thead {
 			background: #878787;
-			color: #fff;
+			color: #00008B;
 			font-weight: 400;
 			text-transform: uppercase;
 			border: 0;
@@ -1906,7 +1906,7 @@ input, select, textarea {
 		padding: 0 !important;
 		position: relative;
 		position: relative;
-		background: #fff;
+		background: #00008B;
 		text-align: center;
 	}
 
@@ -1915,7 +1915,7 @@ input, select, textarea {
 			width: 100% !important;
 			max-width: none !important;
 			border-bottom: solid 2px #e5e5e5;
-			box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
+			box-shadow: inset 0px -8px 0px 0px #00008B, inset 0px -10px 0px 0px #e5e5e5;
 		}
 
 		#header h1 {
@@ -1934,7 +1934,7 @@ input, select, textarea {
 		#header p {
 			text-transform: uppercase;
 			font-weight: 400;
-			color: #fff;
+			color: #00008B;
 			margin: 2.5em 0 0 0;
 			font-size: 0.85em;
 			letter-spacing: 3px;
@@ -1946,7 +1946,7 @@ input, select, textarea {
 	#about-me {
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: #00008B;
 		text-align: center;
 		padding: 6em 0;
 		margin: 0 auto; /* styles for the about me section */
@@ -2060,7 +2060,7 @@ input, select, textarea {
 		text-align: left;
 		border: solid 1px #e5e5e5;
 		border-radius: 4px;
-		background: #fff;
+		background: #00008B;
 		background: rgba(255, 255, 255, 0.965);
 		box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
 		padding: 0.75em 0 0.5em 0;
@@ -2146,7 +2146,7 @@ input, select, textarea {
 	#banner {
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: #00008B;
 		color: #fff;
 		text-align: center;
 		border-top: solid 2px #e5e5e5;
@@ -2205,7 +2205,7 @@ input, select, textarea {
 	#main {
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: #00008B;
 		padding: 6em 0;
 	}
 
@@ -2268,7 +2268,7 @@ input, select, textarea {
 			#footer form input[type="password"]:focus,
 			#footer form select:focus,
 			#footer form textarea:focus {
-				background: #fff;
+				background: #00008B;
 			}
 
 		#footer h2 {
