@@ -2757,16 +2757,6 @@ body {
 	margin: 0;
 }
 		/* ===== HERO BANNER FIX ===== */
-/* ===== HERO BANNER FIX (FULL CONTROL) ===== */
-
-/* ===== FULL BLEED HERO FIX ===== */
-
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
-/* kill theme spacing */
 #header {
     padding: 0;
     margin: 0;
@@ -2778,18 +2768,12 @@ html, body {
     width: 100%;
     max-width: 100%;
     height: auto;
+    margin: 0;
+    padding: 0;
 }
 
-.hero-img {
-    width: 100%;
-    display: block;
+body,
+html {
+    overflow-x: hidden;
 }
-		#page-wrapper {
-    padding: 0 !important;
-}
-
-		body {
-    color: #fff !important;
-}
-}
-
+	}
