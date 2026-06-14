@@ -10,6 +10,7 @@
 	--nav-bg-hover-color: #66FF00;
 	--nav-borderline-color: #66FF00;
 	--header-border-bottom: #E1E6E8;
+	--border-line-color: #e3e9ed;
 }
 
 /*
@@ -149,7 +150,7 @@ input, select, textarea {
 		transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		color: var(--nav-bg-hover-color);
 		text-decoration: none;
-		border-bottom: solid 1px #ddd;
+		border-bottom: solid 1px var(--border-line-color);
 	}
 
 		a strong {
@@ -192,11 +193,11 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-top: solid 1px #ddd;
+		border-top: solid 1px var(--border-line-color);
 	}
 
 	blockquote {
-		border-left: solid 0.5em #ddd;
+		border-left: solid 0.5em var(--border-line-color);
 		padding: 1em 0 1em 2em;
 		font-style: italic;
 	}
@@ -2525,7 +2526,7 @@ input, select, textarea {
 
 				#navPanel .link {
 					display: block;
-					color: #ddd;
+					color: var(--border-line-color);
 					text-decoration: none;
 					height: 44px;
 					line-height: 44px;
