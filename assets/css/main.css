@@ -7,6 +7,7 @@
     --primary-text: #ffffff;
     --accent: #DCADA7;
 	--nav-bg-color: #66FF00;
+	--nav-borderline-color: ##66FF00;
 }
 
 /*
@@ -157,7 +158,8 @@ input, select, textarea {
 		}
 
 		a:hover {
-			color: #ed786a;
+			/* color: #ed786a; */
+			color: var(--nav-borderline-color);
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
