@@ -3,7 +3,7 @@
 
 /* let's add variables to make color testing easier */
 :root {
-    --primary-bg: #0047AB;
+    --primary-bg: #000E2B;
     --primary-text: #ffffff;
     --accent: #DCADA7;
 }
@@ -2067,7 +2067,7 @@ input, select, textarea {
 		border: solid 1px #e5e5e5;
 		border-radius: 4px;
 		background: var(--primary-bg);
-		background: rgba(255, 255, 255, 0.965);
+		/* background: rgba(255, 255, 255, 0.965); */
 		box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
 		padding: 0.75em 0 0.5em 0;
 		min-width: 12em;
