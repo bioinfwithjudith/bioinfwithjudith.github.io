@@ -1903,6 +1903,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
+		padding: 0 !important;
 		position: relative;
 		position: relative;
 		background: #fff;
@@ -1910,7 +1911,9 @@ input, select, textarea {
 	}
 
 		#header > .container {
-			padding: 14em 0 7em 0;
+			<!-- padding: 14em 0 7em 0; -->
+			width: 100% !important;
+			max-width: none !important;
 			border-bottom: solid 2px #e5e5e5;
 			box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
 		}
@@ -2770,12 +2773,12 @@ html, body {
 }
 
 /* IMPORTANT: remove container influence on layout above image */
-#header .container {
-    padding: 0;
-    margin: 0;
-	width: 100%;
-	max-width: none;
-}
+<!-- #header .container { -->
+<!-- padding: 0; -->
+<!-- margin: 0; -->
+<!--	width: 100%; -->
+<!--	max-width: none; } -->
+
 
 .hero {
     width: 100%;
