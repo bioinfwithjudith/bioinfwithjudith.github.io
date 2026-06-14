@@ -3,7 +3,7 @@
 
 /* let's add variables to make color testing easier */
 :root {
-    --primary-bg: #000080;
+    --primary-bg: #0047AB;
     --primary-text: #ffffff;
     --accent: #DCADA7;
 }
@@ -1972,8 +1972,8 @@ input, select, textarea {
 
 	.profile-picture img {
 		object-fit: cover;
-		/* width: 472px;
-		height: 863px; */
+		width: 472px;
+		height: 863px;
 	}
 
 	.about-me-text {
