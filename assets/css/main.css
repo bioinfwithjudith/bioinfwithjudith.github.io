@@ -165,7 +165,7 @@ input, select, textarea {
 		}
 
 			a:hover strong {
-				color: --nav-bg-hover-color;
+				color: var(--nav-bg-hover-color);
 			}
 
 	strong, b {
