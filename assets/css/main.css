@@ -9,6 +9,7 @@
 	--nav-bg-color: #66FF00;
 	--nav-bg-hover-color: #66FF00;
 	--nav-borderline-color: #66FF00;
+	--header-border-bottom: #E1E6E8;
 }
 
 /*
@@ -1924,19 +1925,19 @@ input, select, textarea {
 			padding: 14em 0 7em 0;
 			width: 100% !important;
 			max-width: none !important;
-			border-bottom: solid 2px #e5e5e5;
+			border-bottom: solid 2px var(--header-border-bottom);
 			box-shadow: inset 0px -8px 0px 0px var(--primary-bg), inset 0px -10px 0px 0px #e5e5e5;
 		}
 
 		#header h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
-			color: #DCADA7; /* tea rose (red) */
+			/* color: #DCADA7; /* tea rose (red) */
+			color: var(--header-border-bottom);
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 			font-size: 3em;
 			letter-spacing: 13px;
 		}
-
 			#header h1 a {
 				border: 0;
 			}
