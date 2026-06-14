@@ -90,8 +90,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #00008B;
-		<!-- background: #f0f0f0; --> <!-- this is that peachy background you see in about me -->
+		background: var(--primary-bg);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1973,8 +1972,8 @@ input, select, textarea {
 
 	.profile-picture img {
 		object-fit: cover;
-		    <!-- width: 472px;
-		    height: 863px; -->
+		/* width: 472px;
+		height: 863px; */
 	}
 
 	.about-me-text {
@@ -2135,7 +2134,7 @@ input, select, textarea {
 	#features {
 		position: relative;
 		overflow: hidden;
-		background: #00008B;
+		background: var(--primary-bg);
 		text-align: center;
 		padding: 6em 0;
 	}
@@ -2153,7 +2152,7 @@ input, select, textarea {
 	#banner {
 		position: relative;
 		overflow: hidden;
-		background: #00008B;
+		background: var(--primary-bg);
 		color: #fff;
 		text-align: center;
 		border-top: solid 2px #e5e5e5;
