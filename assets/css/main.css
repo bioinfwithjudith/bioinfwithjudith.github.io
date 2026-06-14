@@ -3,7 +3,7 @@
 
 /* let's add variables to make color testing easier */
 :root {
-    --primary-bg: #fff;
+    --primary-bg: #000080;
     --primary-text: #ffffff;
     --accent: #DCADA7;
 }
@@ -1748,7 +1748,7 @@ input, select, textarea {
 
 		table thead {
 			background: #878787;
-			color: #00008B;
+			color: var(--primary-bg);
 			font-weight: 400;
 			text-transform: uppercase;
 			border: 0;
@@ -1912,7 +1912,7 @@ input, select, textarea {
 		padding: 0 !important;
 		position: relative;
 		position: relative;
-		background: #00008B;
+		background: var(--primary-bg);
 		text-align: center;
 	}
 
@@ -1940,7 +1940,7 @@ input, select, textarea {
 		#header p {
 			text-transform: uppercase;
 			font-weight: 400;
-			color: #00008B;
+			color: var(--primary-bg);
 			margin: 2.5em 0 0 0;
 			font-size: 0.85em;
 			letter-spacing: 3px;
@@ -1952,7 +1952,7 @@ input, select, textarea {
 	#about-me {
 		position: relative;
 		overflow: hidden;
-		background: #00008B;
+		background: var(--primary-bg);
 		text-align: center;
 		padding: 6em 0;
 		margin: 0 auto; /* styles for the about me section */
@@ -2066,7 +2066,7 @@ input, select, textarea {
 		text-align: left;
 		border: solid 1px #e5e5e5;
 		border-radius: 4px;
-		background: #00008B;
+		background: var(--primary-bg);
 		background: rgba(255, 255, 255, 0.965);
 		box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
 		padding: 0.75em 0 0.5em 0;
@@ -2157,7 +2157,7 @@ input, select, textarea {
 		text-align: center;
 		border-top: solid 2px #e5e5e5;
 		border-bottom: solid 2px #e5e5e5;
-		box-shadow: inset 0px -8px 0px 0px var(--primary-bg), inset 0px 8px 0px 0px #00008B;
+		box-shadow: inset 0px -8px 0px 0px var(--primary-bg), inset 0px 8px 0px 0px var(--primary-bg);
 		position: relative;
 		text-transform: uppercase;
 		background: url("../../images/banner.jpg");
@@ -2211,7 +2211,7 @@ input, select, textarea {
 	#main {
 		position: relative;
 		overflow: hidden;
-		background: #00008B;
+		background: var(--primary-bg);
 		padding: 6em 0;
 	}
 
@@ -2257,7 +2257,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		border-top: solid 2px #e5e5e5;
-		background: #00008B;
+		background: var(--primary-bg);
 		padding: 6em 0 8em 0;
 	}
 
@@ -2266,7 +2266,7 @@ input, select, textarea {
 		#footer form input[type="password"],
 		#footer form select,
 		#footer form textarea {
-			background: #00008B;
+			background: var(--primary-bg);
 		}
 
 			#footer form input[type="text"]:focus,
@@ -2274,7 +2274,7 @@ input, select, textarea {
 			#footer form input[type="password"]:focus,
 			#footer form select:focus,
 			#footer form textarea:focus {
-				background: #00008B;
+				background: var(--primary-bg);
 			}
 
 		#footer h2 {
