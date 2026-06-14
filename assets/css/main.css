@@ -1911,7 +1911,7 @@ input, select, textarea {
 	}
 
 		#header > .container {
-			<!-- padding: 14em 0 7em 0; -->
+			padding: 14em 0 7em 0;
 			width: 100% !important;
 			max-width: none !important;
 			border-bottom: solid 2px #e5e5e5;
@@ -2777,3 +2777,7 @@ html {
     overflow-x: hidden;
 }
 	}
+
+* {
+    outline: 1px solid red;
+}
