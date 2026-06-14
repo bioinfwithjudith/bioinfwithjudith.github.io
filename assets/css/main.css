@@ -160,7 +160,7 @@ input, select, textarea {
 
 		a:hover {
 			/* color: #ed786a; */
-			color: var(nav-bg-hover-color);
+			color: var(--nav-bg-hover-color);
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
