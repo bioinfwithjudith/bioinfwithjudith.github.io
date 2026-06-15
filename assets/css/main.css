@@ -7,10 +7,10 @@
     --primary-text: #ffffff;
     --accent: #DCADA7;
 	--nav-bg-color: transparent;
-	--nav-bg-hover-color: #FF6B00;
-	--nav-borderline-color: #FF1493;
-	--header-border-bottom: #E1E6E8;
-	--border-line-color: #e3e9ed;
+	--nav-bg-hover-color: #FF6B00; /* bright orange */
+	--nav-borderline-color: #FF1493; /* bright pink */
+	--header-border-bottom: #E1E6E8; /* grayish cyan */
+	--border-line-color: #e3e9ed; /* pastel blue */
 }
 
 /*
