@@ -1927,7 +1927,8 @@ input, select, textarea {
 	}
 
 		#header > .container {
-			padding: 4em 0 7em 0;
+			/* padding: 4em 0 7em 0; */
+			padding: 0;
 			width: 100% !important;
 			max-width: none !important;
 			border-bottom: solid 2px var(--header-border-bottom);
@@ -2002,8 +2003,11 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		position: absolute;
-		top: 3em;
+		/* position: absolute; */
+		position: relative;
+		/* top: 3em; */
+		top: 0em;
+		padding: 1em 0; /* just adding */
 		left: 0;
 		width: 100%;
 		cursor: default;
