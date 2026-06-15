@@ -1825,7 +1825,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #ed786a;
+			background: var(--reach-out-button-bg-color);
 		}
 
 		input[type="button"].alt,
