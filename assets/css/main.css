@@ -7,9 +7,10 @@
     --primary-text: #ffffff;
     --accent: #DCADA7;
 	--nav-bg-color: #000E2B;
+	--nav-link-color: #E1E6E8; /* grayish cyan */
 	--nav-bg-hover-color: #228B22; /* forest green */
 	--nav-borderline-color: #FF1493; /* bright pink */
-	--header-border-bottom: #E1E6E8; /* grayish cyan */
+	--header-border-bottom: ##27002b; /* bright purple */
 	--border-line-color: #e3e9ed; /* pastel blue */
 	--general-header-padding: 0em
 }
@@ -149,7 +150,7 @@ input, select, textarea {
 		-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-		color: var(--nav-bg-hover-color);
+		color: var(--nav-link-color);
 		text-decoration: none;
 		border-bottom: solid 1px var(--border-line-color);
 	}
