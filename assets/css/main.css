@@ -1817,7 +1817,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: var(--reach-out-hover-button-color);
+			background: var(--reach-out-hover-button-color) !important;
 		}
 
 		input[type="button"]:active,
