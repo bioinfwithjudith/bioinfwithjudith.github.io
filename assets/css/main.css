@@ -1927,7 +1927,7 @@ input, select, textarea {
 	}
 
 		#header > .container {
-			padding: 14em 0 7em 0;
+			padding: 4em 0 7em 0;
 			width: 100% !important;
 			max-width: none !important;
 			border-bottom: solid 2px var(--header-border-bottom);
