@@ -12,7 +12,9 @@
 	--nav-borderline-color: #FF1493; /* bright pink */
 	--header-border-bottom: ##27002b; /* bright purple */
 	--border-line-color: #e3e9ed; /* pastel blue */
-	--general-header-padding: 0em
+	--general-header-padding: 0em;
+	--reach-out-button-bg-color: #55276e; /* dark purple */
+	--reach-out-hover-button-color: ##be7afd /* lighter purple */
 }
 
 /*
@@ -1784,7 +1786,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #ed786a;
+		background: var(--reach-out-button-bg-color);
 		color: #fff !important;
 		text-transform: uppercase;
 		border-radius: 4px;
@@ -1815,7 +1817,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #fd887a;
+			background: var(--reach-out-hover-button-color);
 		}
 
 		input[type="button"]:active,
