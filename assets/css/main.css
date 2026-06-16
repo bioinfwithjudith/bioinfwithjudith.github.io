@@ -4,7 +4,7 @@
 /* let's add variables to make color testing easier */
 :root {
     --primary-bg: #000E2B;
-    --primary-text: #ffffff;
+    --primary-text: #FFFFFF;
     --accent: #DCADA7;
 	--nav-bg-color: #000E2B;
 	--nav-link-color: #E1E6E8; /* grayish cyan */
@@ -1582,7 +1582,7 @@ input, select, textarea {
 
 		ul.links li {
 			display: inline;
-			border-left: solid 1px #fffff;
+			border-left: solid 1px #FFFFFF;
 			padding-left: 1em;
 			margin: 0 0 0 1em;
 		}
@@ -1787,7 +1787,7 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		background: var(--reach-out-button-bg-color);
-		color: #fff !important;
+		color: #FFFFFF !important;
 		text-transform: uppercase;
 		border-radius: 4px;
 		border: 0;
@@ -2069,7 +2069,7 @@ input, select, textarea {
 			#nav > ul > li.active > a:before,
 			#nav > ul > li:hover > a:before {
 				background: var(--nav-bg-hover-color);
-				color: #fff;
+				color: #FFFFFF;
 			}
 
 			#nav > ul > li.active > a > span,
